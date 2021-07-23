@@ -1,0 +1,15 @@
+a.p:hover {
+    position: relative;
+    text-decoration: none;
+}
+a.p span {
+    display: none;
+    position: absolute;
+    top: 1em;
+    right: 0em;
+}
+a.p:hover span {
+    border: none;
+    display: block;
+    width: 210px;
+}

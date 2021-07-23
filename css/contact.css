@@ -1,0 +1,35 @@
+.contactbig{
+font-weight: nomal;
+color:#009900;
+font-size:16px;
+}
+
+.contacttel{
+margin-top:6px;
+font-size:15px;
+font-weight:bold;
+}
+
+.contactopen{
+margin-top:6px;
+font-size:15px;
+font-weight:nomal;
+}
+
+.contactmailbig{
+font-weight: bold;
+font-size:15px;
+color:#FF6600;
+}
+
+.paypaybig{
+font-weight: nomal;
+color:#0000ff;
+font-size:16px;
+}
+
+.paypaymoney{
+font-weight: bold;
+font-size:14px;
+color:red;
+}

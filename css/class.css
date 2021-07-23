@@ -1,0 +1,42 @@
+.classbig{
+font-weight: nomal;
+color:#FF6600;
+font-size:14px;
+}
+
+.classday{
+font-weight: bold;
+color:#0000ff;
+}
+
+.post table th{
+text-align:left;
+padding:8px;
+white-space:nowrap;
+color: #151515;
+border-top:1px solid #D4D4D4;
+border-right:1px solid #D4D4D4;
+border-bottom:1px solid #D4D4D4;
+border-left:1px solid #D4D4D4;
+font-size:13px;
+font-weight:normal;
+letter-spacing:1px;
+background-repeat:repeat-x;
+background-position:top;
+}
+
+.thbg1{
+background-color:#D3D3D3 !important;
+}
+
+.tdbg1{
+background-color:#F9F9F9 !important;
+}
+
+.thbg2{
+background-color:#D3D3D3 !important;
+}
+
+.tdbg2{
+background-color:#F9F9F9 !important;
+}

@@ -1,0 +1,35 @@
+.topinfo{
+padding-top:3px;
+font-weight:normal;
+font-size:13px;
+}
+
+
+.topinfobig{
+font-size:14px;
+font-weight: bolder;
+}
+
+
+.topitem{ 
+padding-left:5px;
+float:left; 
+} 
+
+
+.topitemdtl{ 
+display: block; 
+margin-left: 130px; 
+} 
+
+
+.bigtheme{ 
+font-size:18px;
+color:red;
+} 
+
+
+.biginfo{ 
+font-size:17px;
+color:#0000FF;
+} 
