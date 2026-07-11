@@ -1,0 +1,58 @@
+.facebook-area{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.facebook-info{
+    width:550px;
+    /* width:350px; */
+}
+
+.facebook-info img{
+    width:100%;
+    height:auto;
+}
+.ana-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #b8860b;   /* 通常時 */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.ana-button:hover {
+    background-color: #8b6508;   /* カーソルを乗せた時 */
+    color: #fff;                 /* 文字色も固定 */
+}
+.facebook-info img{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.facebook-info img:hover{
+    opacity: 0.85;
+}
+.ana-event {
+    color: #007BFF;
+    font-size: 1.2em;    /* 少し大きく */
+    font-weight: bold;   /* 太字 */
+}
+.top-banner{
+    margin:15px 0 25px 0;
+    text-align:center;
+}
+
+.top-banner img{
+    /* width:100%; */
+    max-width:900px;
+    /* border-radius:8px; */
+    transition:0.3s;
+}
+
+.top-banner img:hover{
+    opacity:0.85;
+}
