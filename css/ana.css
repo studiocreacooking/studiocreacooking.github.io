@@ -9,10 +9,14 @@
     /* width:350px; */
 }
 
+
 .facebook-info img{
     width:100%;
     height:auto;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
 .ana-button {
     display: inline-block;
     margin-top: 15px;
@@ -27,10 +31,6 @@
 .ana-button:hover {
     background-color: #8b6508;   /* カーソルを乗せた時 */
     color: #fff;                 /* 文字色も固定 */
-}
-.facebook-info img{
-    cursor: pointer;
-    transition: 0.3s;
 }
 
 .facebook-info img:hover{
@@ -55,4 +55,38 @@
 
 .top-banner img:hover{
     opacity:0.85;
+}
+
+/* スマホ対応 */
+@media screen and (max-width: 768px) {
+
+    .facebook-area {
+        display: block;
+    }
+
+    .facebook {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .facebook iframe {
+        max-width: 100%;
+    }
+
+    .facebook-info {
+        width: 100%;
+    }
+
+    .facebook-info img {
+        width: 100%;
+        height: auto;
+    }
+
+    .ana-button {
+        display: block;
+        text-align: center;
+        width: fit-content;
+        margin: 20px auto;
+    }
 }
