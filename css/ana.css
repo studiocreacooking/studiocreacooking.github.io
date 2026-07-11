@@ -47,8 +47,8 @@
 }
 
 .top-banner img{
-    /* width:100%; */
-    max-width:900px;
+    /* max-width:900px; */
+    max-width:100%;
     /* border-radius:8px; */
     transition:0.3s;
 }
